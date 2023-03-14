@@ -24,7 +24,7 @@ CSS ELEMENTI GENERICI
     display: block;
 }
 
-.nowrap{flex-wrap: nowrap;}
+.wrap{flex-wrap: wrap;}
 
 /* SPAZI */
 
@@ -141,7 +141,7 @@ h2{
 }
 .MiniBox{
     width: 300px;
-    min-height: 950px;
+    min-height: 500px;
     display: flex;
 }
 .button{
