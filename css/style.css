@@ -1,0 +1,203 @@
+/********************
+CSS ELEMENTI GENERICI 
+*********************/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.boxed{                                 /*classe per allineare bene */
+    max-width: 1200px;                   /*meglio dare in pixel per fissare bene la pagina o usare % per farla adattare al dispositivo */
+    margin: 0 auto;
+}
+.MainBoxed{                                 /*classe per allineare bene */
+    max-width: 1000px;                 /*meglio dare in pixel per fissare bene la pagina o usare % per farla adattare al dispositivo */
+    margin: 0 auto;
+}
+
+
+.flex{
+    display: flex;
+}
+.block{
+    display: block;
+}
+
+.nowrap{flex-wrap: nowrap;}
+
+/* SPAZI */
+
+.hMin460{ min-height: 460px;}
+.w100{width: 100%;}
+.w370{width: 370px;}
+.space {margin: 5px 0px;}
+.pad15 {padding: 15px;}
+.pad20{padding: 0 20px;}
+.pad25{padding: 25px;}S
+.pad30 {padding: 30px;}
+.pad35{padding: 35px 0;}
+
+.padX20{padding: 20px 0;}
+
+.margin30{margin: 30px 0;}
+.margin50{margin: 50px 0;}
+.padding{padding: 30px 0;}
+.paddingBottom50{padding-bottom: 50px;}
+.paddingBottom30{padding-bottom: 30px;}
+
+/* ALLINEAMENTO */S
+.textCenter{text-align: center}
+.textLeft{text-align: left}
+.alignItemCenter {align-items: center;}
+.space-between {justify-content: space-between;}
+.justify-center {justify-content: center;}
+.justify-content{justify-content: flex-end;}
+.column{flex-direction: column;}
+
+.center{ margin: 0 auto;}
+
+/* COLORI SFONDO */
+
+.bg-orangered {background-color: orangered;}
+.bg-blue {background-color: blue;}
+.bg-black {background-color: #222;}
+.bg-grey{ background-color: #4a4a4a;}
+.bg-lightblue{background-color: #b4d0e7;}
+.bg-pink{background-color: pink;}
+
+
+/* TESTO */
+.bold{font-weight: bold;}
+.textBlue{color: #0061ff;}
+.textGrey{color: gray;}
+.textBlack{color: black;}
+.textWhite{color: white;}
+
+/* POSIZIONAMENTO */
+
+.col10 {width: 10%;}
+.col20 {width: 20%;}
+.col25 {width: 25%;}
+.col30 {width: 30%;}
+.col33 {width: 33%;}
+.col40 {width: 40%;}
+.col50 {width: 50%;}
+.col60 {width: 60%;}
+.col70 {width: 70%;}
+.col80 {width: 80%;}
+.col90 {width: 90%;}
+.col100 {width: 100%;}
+
+.w400 {width: 400px;}
+.w270 {width: 270px;}
+
+.h100{height: 100%;}
+
+/* MISC */
+
+
+
+/******************
+CSS ELEMENTI PAGINA
+*******************/
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    background: #ffffff;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+#First-Section{
+    width: 100%;
+    min-height: 740px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+header button{
+    padding: 10px 25px;
+}
+
+/* MAIN */
+.title{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 70px 0;
+}
+h2{
+    font-size: 20px;
+}
+.MiniBox{
+    width: 300px;
+    min-height: 950px;
+    display: flex;
+}
+.button{
+    padding: 15px;
+    border: none;
+    color: #ffffff;
+    background-color: #0061ff;
+}
+.GreyButton{
+    padding: 15px;
+    border: 1px solid gray;
+    color: gray;
+    background-color: #ffffff;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: #0062ffd2;
+}
+main img{
+    height: 100%;
+    width: 100%;
+}
+a{
+    color: black;
+    padding: 0 20px;
+    text-decoration: none;
+}
+main a{
+    color: #0061ff;
+    padding: 0;
+    text-decoration: underline;
+}
+#circleOn{
+    margin-right: 4px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 5px solid #0061ff;
+}
+#circleOff{
+    margin-right: 4px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 2px solid #d0d0d3;
+}
+.bdGrey{
+    border: 1px solid #d0d0d3;
+}
+.bdGreyBottom{
+    border-bottom: 1px solid #d0d0d3;
+}
+.price{
+    font-size: 10px;
+    font-weight: bold;
+    margin: 20px 0;
+}
