@@ -61,6 +61,7 @@ CSS ELEMENTI GENERICI
 /* ALLINEAMENTO */S
 .textCenter{text-align: center}
 .textLeft{text-align: left}
+.textRight{text-align: right;}
 .alignItemCenter {align-items: center;}
 .space-between {justify-content: space-between;}
 .justify-center {justify-content: center;}
@@ -267,10 +268,11 @@ footer a{
 .bla{
     margin-top: 5px;
 }
-.show, .hide:hover>div {
+.show, .hide:active>div>div {
 	display: none;
 }
 
-.hide:hover>.show {
+.hide:active>.show {
 	display: block;
+
 }
