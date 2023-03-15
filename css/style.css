@@ -57,6 +57,7 @@ CSS ELEMENTI GENERICI
 .margin30{margin: 30px 0;}
 .margin50{margin: 50px 0;}
 .marginTop80{margin-top: 80px;}
+.marginTop140{margin-top: 140px;}
 
 /* ALLINEAMENTO */S
 .textCenter{text-align: center}
@@ -91,6 +92,11 @@ CSS ELEMENTI GENERICI
 
 
 /* TESTO */
+
+.text10{font-size: 10px;}
+.text30{font-size: 30px;}
+.text40{font-size: 40px;}
+
 .bold{font-weight: bold;}
 .textBlue{color: #0061ff;}
 .textGrey{color: gray;}
@@ -140,9 +146,8 @@ header{
     left: 0;
     z-index: 99;
 }
-#First-Section{
-    width: 100%;
-}
+#First-Section{}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -252,8 +257,8 @@ svg{
     position: absolute;
     font-size: 15px;
 }
-.text30{font-size: 30px;}
-.text10{font-size: 10px;}
+
+
 
 footer{
     color: white;
@@ -274,5 +279,4 @@ footer a{
 
 .hide:active>.show {
 	display: block;
-
 }
