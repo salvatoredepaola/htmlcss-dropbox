@@ -32,6 +32,9 @@ CSS ELEMENTI GENERICI
 .w370{width: 370px;}
 .w50{width: 50px;}
 .w630{width: 630px;}
+
+.w100{width: 100%;}
+
 .dueTerzi{width: calc(100% / 3 * 2);}
 
 .hMax780{ max-height: 633px;}
@@ -146,7 +149,9 @@ header{
     left: 0;
     z-index: 99;
 }
-#First-Section{}
+#First-Section {
+
+}
 
 body{
     font-family: Arial, Helvetica, sans-serif;
